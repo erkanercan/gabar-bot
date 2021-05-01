@@ -1,4 +1,3 @@
-import { Telegraf } from "telegraf";
 import signale from "signale";
 import {
   bizzatAnswers,
@@ -7,10 +6,21 @@ import {
   replikAnswers,
   iyiBiriAnswers,
 } from "./data/answers.data";
+import { Telegraf } from "telegraf";
+import express from "express";
+const expressApp = express();
 
 require("dotenv").config();
 
-const bot = new Telegraf(process.env.GABAR_BOT_TOKEN);
+const GABAR_BOT_TOKEN = process.env.GABAR_BOT_TOKEN;
+const PORT = process.env.PORT || 3000;
+
+expressApp.listen(PORT, () => {
+  signale.info(`Listening on port ${PORT}`);
+});
+
+const bot = new Telegraf(GABAR_BOT_TOKEN);
+
 // /selam command
 bot.command("selam", (ctx: any) => {
   signale.info("Sending selam answer to @" + ctx?.from?.username + " at " + new Date());
