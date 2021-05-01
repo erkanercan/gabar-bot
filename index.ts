@@ -14,7 +14,6 @@ require("dotenv").config();
 
 const GABAR_BOT_TOKEN = process.env.GABAR_BOT_TOKEN;
 const PORT = process.env.PORT || 3000;
-const URL = process.env.URL;
 
 expressApp.listen(PORT, () => {
   signale.info(`Listening on port ${PORT}`);
