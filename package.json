@@ -1,7 +1,7 @@
 {
   "name": "gabar-bot",
   "version": "1.0.0",
-  "description": "Gabar bot for giving gabar answers",
+  "description": "Gabar bot for giving gabar answers.",
   "main": "index.ts",
   "repository": "https://github.com/erkanercan/gabar-bot",
   "author": "Erkan Ercan",
