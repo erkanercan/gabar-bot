@@ -11,7 +11,6 @@ import { Telegraf } from "telegraf";
 require("dotenv").config();
 
 const GABAR_BOT_TOKEN = process.env.GABAR_BOT_TOKEN;
-
 const bot = new Telegraf(GABAR_BOT_TOKEN);
 
 // /start command
