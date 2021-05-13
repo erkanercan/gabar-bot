@@ -38,6 +38,32 @@ export const replikAnswers = [
   "Binance bizzat gelecek",
   "But gabar is best bot to telegram -Bir Dost",
   "Makaronun bizzat kendi ağı olacak",
+  "Mart çöküşünü canlı canlı izledim, şansıma malda idim",
+  "Olacak olacak :) İnanın sadece :)",
+  "Grup elini taşın altına koyar 😉 yeterki macaron için savaşalım",
+  "Net bir şekilde belirtmek istiyorum",
+  "Seziyorum :)",
+  "Hayır hocam. Macaron fanatizmi başlayacak yakında. Seziyorum :)",
+  "Net bir şekilde belirtmek istiyorum, Cake trenini kaçıranlar buraya akacak",
+  "Bizzat macaron olacağız, binance kapatıp macaron exchange geçecek (unofficial replik)",
+  "1. Gün ekip elindeki BNBleri MCRN'a bastı",
+  "Az relax :)",
+  "Olacak olacak :) İnanın sadece :)",
+  "Presalede tereddüt ile ufak bir yatırım yapmıştım, zamanla ekibin icraatları güven vermeye başlayınca yatırımı büyüttüm. 4/5/6 ya kadar takviye yaptığım oldu. Apr oranları da biz topluluk tarafından onaylandı. Farm açılış günü çoğu panik yatırımcı kendileri oy verdikleri halde apr oranlarını beğenmeyip panik satışı yaptılar. Burada bulunan kemik tayfa fiyata odaklanmadan Macaronları stakeye atıp serbest sürüşe geçtiler :)",
+  "Ben sosyal medya uzmanıyım -oapplecjme",
+  "Herkes kendi çapında çevresine tanıtımını yapabilir, dolaylı ve sosyal medya üzerinden",
+  "Altı üstü kodlar denetlenecek \nİnşaat mı yapacaklar?",
 ];
 
-export const iyiBiriAnswers = ["Yasemin", "Sen", "Ben", "Luke", "Chef", "Cem", "Satoshi"];
+export const iyiBiriAnswers = [
+  "Yasemin",
+  "Sen",
+  "Ben",
+  "Luke",
+  "Chef",
+  "Cem",
+  "Satoshi",
+  "Erkan",
+  "Orçun",
+  "Tayfun",
+];
